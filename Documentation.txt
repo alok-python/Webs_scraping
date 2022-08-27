@@ -1,0 +1,28 @@
+  
+  
+  First of all install all module
+
+import time , requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support import expected_conditions
+import pytesseract
+from PIL import Image
+
+
+Install Tesseract — OCR on Windows
+link :  https://github.com/tesseract-ocr/tesseract
+
+We can chooise between 32 bits installer and 64 bits installer, in my case I choose 64 bits installer
+
+How you could have realized, the download version is 5.0.0-alpha. According to documentation are recommendable this version for windowds users, due to his functionality , quickly, and stabillity, to diference with old version.
+
+Once downloaded, execute the installator. And follow next steps.
+
+Install Pytesseract
+We can found in this site the pip command to install Pytesseract.
+
+
+Copy pip install pytesseract y paste in cmd.
+

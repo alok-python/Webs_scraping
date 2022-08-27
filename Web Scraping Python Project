@@ -1,0 +1,8 @@
+
+
+
+
+Task 1: Webscraping with python (all the steps below must be done by python)
+step 1: go to url https://bidplus.gem.gov.in/advance-search
+step 2: click on search by consignee location
+step 3: filll the form and solve captcha and click on search
